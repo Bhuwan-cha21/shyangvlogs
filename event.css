@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height:50vh;
+    background-color:rgba(70, 51, 124, 0.9);
+}
+.nav{
+    grid-area:nav;
+    display:flex;
+    justify-content:space-between;
+    background-color:white;
+    
+}
+.nlist{
+    display:flex;
+    align-content: center;
+    margin-top:4px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+}
+ li{
+    list-style:none;
+    margin:5px;
+ }
+ a{
+    text-decoration: none;
+ }
+
+.intro{
+    grid-area:intro; 
+    font-family: 'Anton', sans-serif;
+    color:var(--headcolor);
+    font-size:20px;
+    margin-left:5px;
+}
+.eve{
+    margin-top:5%;
+}
+.event{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #0969ed;
+    width:auto;
+    background-size:cover;
+    margin-left:10%;
+    margin-right:10%;
+    border-radius:10px;
+    background-color:#32a8a2;
+    box-shadow:10px 10px #abc9c8;
+}
+button{
+    height:7vh;
+    width:27vh;
+    border-radius:5px;
+    font-size:2vw;
+}
+button:hover{
+    height:9vh;
+    width:29vh;
+}
+
+P{
+    font-size:4vw;
+    margin:10px;
+    color:#bfccde;
+   
+}
